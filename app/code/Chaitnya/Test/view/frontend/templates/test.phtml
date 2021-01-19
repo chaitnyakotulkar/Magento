@@ -1,0 +1,35 @@
+<?php
+	//echo 'This is a simple custom module and it does not include admin and database realted files.';
+?>
+<form class="" action="<?php echo $block->getBaseUrl().'test/index/save'; ?>" id="chaitnya-test-form" method="post">
+    <fieldset class="fieldset">
+        <legend class="legend"><span>Test Form For Registration</span></legend><br>
+        <div class="field note no-label">Enter Your Details To Register</div>
+        <div class="field title">
+            <label class="label" for="title"><span>Name</span></label>
+            <div class="control">
+                <input name="title" id="title" title="Name" value="" class="input-text" type="text">
+            </div>
+        </div>
+        <div class="field author">
+            <label class="label" for="author"><span>Email</span></label>
+            <div class="control">
+                <input name="author" id="author" title="Author" value="" class="input-text" type="email">
+            </div>
+        </div>
+        <div class="field content">
+            <label class="label" for="content"><span>Mobile</span></label>
+            <div class="control">
+           
+                <input name="content" id="content" title="Content" value="" class="input-text" type="tel">
+            </div>
+        </div>
+    </fieldset>
+    <div class="actions-toolbar">
+        <div class="primary">
+            <button type="submit" title="Submit" class="action submit primary">
+                <span>Register</span>
+            </button>
+        </div>
+    </div>
+</form>

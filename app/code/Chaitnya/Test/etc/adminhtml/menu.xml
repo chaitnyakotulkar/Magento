@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+
+	<menu>
+
+		<add id="Chaitnya_Test::test" title="EMPLOYEE DATA" module="Chaitnya_Test" sortOrder="51" resource="Chaitnya_Test::test"/>
+
+		<add id="Chaitnya_Test::post" title="Manage Posts" module="Chaitnya_Test" sortOrder="10" action="chaitnya_test/post" resource="Chaitnya_Test::post" parent="Chaitnya_Test::test"/>
+
+		<add id="Chaitnya_Test::test_configuration" title="Configuration" module="Chaitnya_Test" sortOrder="99" parent="Chaitnya_Test::test" action="adminhtml/system_config/edit/section/test" resource="Chaitnya_Test::test_configuration"/>
+
+	</menu>
+	
+</config>
