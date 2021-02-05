@@ -11,6 +11,7 @@
         "sort-packages": true
     },
     "require": {
+        "magekey/module-bestseller-widget": "^2.0",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
@@ -32,6 +33,8 @@
         "magento/module-wishlist-sample-data": "100.3.*",
         "magento/product-community-edition": "2.3.4",
         "magento/sample-data-media": "100.3.*",
+        "mageplaza/magento-2-product-slider": "^4.0",
+        "mageplaza/module-ajax-layered-navigation": "^4.0",
         "mageplaza/module-banner-slider": "^4.0",
         "mageplaza/module-google-maps": "^1.0"
     },

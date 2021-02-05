@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+    	<add id="Assignment_Bannerslider::bannerslider" title="Assignment" module="Assignment_Bannerslider" sortOrder="51" resource="Assignment_Bannerslider::bannerslider"/>
+        <add id="Assignment_Bannerslider::post" title="Manage Slider" module="Assignment_Bannerslider" sortOrder="10" action="assignment_bannerslider/post" resource="Assignment_Bannerslider::post" parent="Assignment_Bannerslider::bannerslider"/>
+        <add id="Assignment_Bannerslider::banner_configuration" title="Manage Banner" module="Assignment_Bannerslider" sortOrder="99" parent="Assignment_Bannerslider::bannerslider" action="adminhtml/system_config/edit/section/bannerslider" resource="Assignment_Bannerslider::bannerslider_configuration"/>
+    </menu>
+</config>

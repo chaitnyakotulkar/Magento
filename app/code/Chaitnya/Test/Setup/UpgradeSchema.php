@@ -23,7 +23,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
 
         $installer->startSetup();
         
-        if (version_compare($context->getVersion(), '1.0.1', '<')) {
+        if (version_compare($context->getVersion(), '1.2.0', '<')) {
             $installer->getConnection()->addColumn(
                 $installer->getTable('chaitnya_test'),
                 'using_upgradeschema',

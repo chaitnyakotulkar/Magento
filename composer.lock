@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9db3ba96c8150f288568caa8b1de34db",
+    "content-hash": "fd01f99f646e67870c581d4405dd4c60",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -1861,6 +1861,42 @@
                 "Apache-2.0"
             ],
             "description": "Klarna Order Management Magento 2 Extension"
+        },
+        {
+            "name": "magekey/module-bestseller-widget",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/magekey/module-bestseller-widget.git",
+                "reference": "22d5ceb9d8321280e435db359fe2e05279dabf43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/magekey/module-bestseller-widget/zipball/22d5ceb9d8321280e435db359fe2e05279dabf43",
+                "reference": "22d5ceb9d8321280e435db359fe2e05279dabf43",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MageKey\\BestsellerWidget\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicholas Miller",
+                    "email": "nick@magekey.com"
+                }
+            ],
+            "description": "Magento 2 Bestseller Widget",
+            "time": "2018-11-12T13:42:59+00:00"
         },
         {
             "name": "magento/adobe-stock-integration",
@@ -11702,6 +11738,88 @@
                 "framework"
             ],
             "time": "2020-12-02T21:12:59+00:00"
+        },
+        {
+            "name": "mageplaza/magento-2-product-slider",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-product-slider.git",
+                "reference": "b3cb807a2a3cde814f90b36d2d0acf13c8cdc06c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-product-slider/zipball/b3cb807a2a3cde814f90b36d2d0acf13c8cdc06c",
+                "reference": "b3cb807a2a3cde814f90b36d2d0acf13c8cdc06c",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Productslider\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Product Slider",
+            "time": "2020-11-09T03:10:52+00:00"
+        },
+        {
+            "name": "mageplaza/module-ajax-layered-navigation",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-ajax-layered-navigation.git",
+                "reference": "8eb0d1fd3a069f5cce06a6e7f3dc2f10b25e1a5b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-ajax-layered-navigation/zipball/8eb0d1fd3a069f5cce06a6e7f3dc2f10b25e1a5b",
+                "reference": "8eb0d1fd3a069f5cce06a6e7f3dc2f10b25e1a5b",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\AjaxLayer\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Ajax Layered Navigation Extension",
+            "time": "2020-09-11T10:16:30+00:00"
         },
         {
             "name": "mageplaza/module-banner-slider",
@@ -21838,12 +21956,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
